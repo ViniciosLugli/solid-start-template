@@ -31,3 +31,12 @@ Run the builded app
 ```bash
 npm run start
 ```
+
+## Used main packages:
+
+-   https://ark-ui.com/
+-   https://github.com/solidjs/solid-router
+-   https://github.com/solidjs/solid-meta
+-   https://www.solid-toast.com/
+-   https://github.com/nksaraf/vinxi
+-   https://tailwindcss.com/

@@ -1,14 +1,13 @@
-import toast from 'solid-toast';
+import { clientOnly } from '@solidjs/start';
 
-const notify = () => toast('Here is your toast.');
+const TooltipButtonClient = clientOnly(() => import('~/components/TooltipButton'));
 
 export default function Home() {
 	return (
-		<main class="text-center mx-auto text-gray-700 p-4">
-			<h1 class="max-6-xs text-6xl text-sky-700 font-thin uppercase my-16">Hello world!</h1>
-			<button class="bg-sky-500 hover:bg-sky-600 text-white font-bold py-2 px-4 rounded" onClick={notify}>
-				Example button
-			</button>
-		</main>
+		<>
+			<div class="flex text-3xl text-center justify-center items-center h-screen">
+				<TooltipButtonClient />
+			</div>
+		</>
 	);
 }
