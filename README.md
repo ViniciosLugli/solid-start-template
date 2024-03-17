@@ -1,7 +1,5 @@
 # solid-start-template
 
-[Demo deploy on Vercel](https://solid-start-template-gamma.vercel.app/)
-
 ## Prerequisites
 
 -   Node.js >= 20
