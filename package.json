@@ -4,6 +4,7 @@
 	"scripts": {
 		"dev": "vinxi dev",
 		"build": "vinxi build",
+		"build-vercel": "NITRO_PRESET=vercel_static npm run build",
 		"start": "vinxi start"
 	},
 	"dependencies": {
